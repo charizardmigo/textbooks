@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
+int main(void)  
 {
     int num1, num2, denom1, denom2, rem;
 
