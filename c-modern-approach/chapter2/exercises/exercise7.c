@@ -8,7 +8,7 @@ PRIESTLEY FOMECHE
 
 Q: Which of the following are keywords in C?
    (a) for
-   (b) if
+   (b) If
    (c) main
    (d) printf
    (e) while
