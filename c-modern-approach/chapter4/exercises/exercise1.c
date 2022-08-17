@@ -23,7 +23,7 @@ Q: Show the output produced by each of the following program fragments. Assume t
 
 A: (a) 1 2
    (b) 0
-   (c) 0 [The multiplicative operators are left associative, hence can be simplified as ((i + 10) % k) / j]
+   (c) 1 [The multiplicative operators are left associative, hence can be simplified as ((i + 10) % k) / j]
    (d) 0 [Simplification: ((i + 5) % (j + 2)) / k]
 
 */
