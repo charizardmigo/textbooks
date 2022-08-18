@@ -20,7 +20,7 @@ Q: The following table shows telephone area codes in the state of Georgia along 
 
   Write a switch statement whose controlling expression is the variable area code. If the value of area code is in the table,
   the switch statement will print the corresponding city name. Otherwise, the switch statement will display the message "Area
-  code not recognized", Use the techniques discussed in Seetion 5.3 to make the switch statement as simple as possible.
+  code not recognized", Use the techniques discussed in Section 5.3 to make the switch statement as simple as possible.
 
 
 A:
@@ -40,19 +40,10 @@ A:
                   break;
 
         case 912: printf("Savannah");
+                  break;
 
         default: printf("Area code not recognized");
                  break;
     }
 
 */
-
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
