@@ -14,10 +14,11 @@ Q: Give the values of i and j after each of the following expression statements 
    (c) i * j / i;
    (d) i % ++j;
 
-A:
-   (a) 3
-   (b) 1
-   (c) 2
-   (d) 1
+A:     i  j
+
+   (a) 3  2
+   (b) 1  2
+   (c) 1  2
+   (d) 1  3
 
 */
