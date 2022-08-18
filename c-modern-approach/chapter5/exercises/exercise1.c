@@ -23,9 +23,9 @@ Q: The following program fragments illustrate the relational and equality operat
        printf("%d", i % j + i < k);
 
 
-A: (a) 6
+A: (a) 1
    (b) 1
-   (c) 0
+   (c) 1
    (d) 0
 
 */
