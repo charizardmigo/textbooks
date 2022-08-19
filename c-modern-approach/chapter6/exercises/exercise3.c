@@ -12,6 +12,10 @@ Q: What output does the following for statement produce?
     printf("%d ", i);
    }
 
-A: 4
+
+A: 5 4 3 2
+
+   The program does not print the expected 1 because of the misuse of the comma operator
+   separating the conditional expressions in the for loop: The first expression i > 0 is always discarded.
 
 */
