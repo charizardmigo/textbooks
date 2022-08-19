@@ -17,7 +17,7 @@ Q: What does the following program fragment produce?
     printf("%d\n", sum);
 
 
-A: 20
+A: 25
 
 
 */
