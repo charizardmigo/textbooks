@@ -12,7 +12,9 @@ Q: What output does the following for statement produce?
       printf("%d ", i++);
 
 
-A: 10 6 4 3 2 1
+A: 10 5 3 2 1 1 1 1 1 1 1 1 . . .
 
+   The . . . represents an endless stream of 1 s. The postfix increment operator in the
+   printf format string will always cause the conditional operator in the for loop to return true.
 
 */
