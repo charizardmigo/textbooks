@@ -1,0 +1,30 @@
+// Compilers aren't required to check that the number of
+// conversion specifications in a format string matches
+// the number of output items.
+
+#include <stdio.h>
+
+int main(void)
+{
+    int i, j;
+    float x, y;
+
+    i = 10;
+    x = 43.2892f;
+
+    printf("integer i initialized to 10\n");
+    printf("integer j not initialized\n");
+    printf("float x initialized to 43.2892f\n");
+    printf("floax y not initialized\n\n");
+
+    printf("Two integer conversion specifications (%%d %%d) and one output item (i):\n");
+    printf("\t%d %d\n\n", i); /*** WRONG ***/
+
+    printf("One float conversion specification (%%f) and two output items (x, y):\n");
+    printf("\t%f\n\n", x, y); /*** WRONG ***/
+
+    printf("%%d and %%f conversion specifications getting incorrect output items (i, x):\n");
+    printf("\t%f %d\n\n", i, x); /*** WRONG ***/
+
+    return 0;
+}
