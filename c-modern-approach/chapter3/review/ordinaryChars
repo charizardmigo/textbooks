@@ -1,0 +1,21 @@
+// Ordinary characters in format strings.
+
+#include <stdio.h>
+
+int main(void)
+{
+    int x, y;
+    int a, b;
+
+    printf("Enter 5/ 96: ");
+    scanf("%d/%d", &x, &y); // conversion specs can match the given input
+    printf("x = %d\n", x);
+    printf("y = %d\n", y);
+
+    printf("\nEnter 5 / 96: ");
+    scanf("%d/%d", &a, &b); // conversion specs can't match the given input
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+
+    return 0;
+}
